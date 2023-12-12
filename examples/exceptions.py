@@ -19,3 +19,8 @@ def double(n):
     return n * 2
 
 print(double(0))
+
+# custom exceptions
+class CustomException(Exception):
+    # just inherit the Exception class but dont implement nothing new (pass)
+    pass
